@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de caixas</title>
+    <style>
+        h1{ /*Box-level*/
+            
+            background-color: lightblue;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgb(69, 69, 241);
+
+            /* Simplificação da propriedade border: */
+            border: 10px solid rgb(69, 69, 241);
+
+            /* Simplificação da propriedade padding: */
+
+            padding: 5px 5px 5px 5px;
+
+            padding: 5px; /*O padding deve ser usado em sentido horário!*/
+
+            /* Simplificação da propriedade margin: */
+
+            margin: 20px 20px 50px 20px;
+
+            /* margin: auto; <- Maneira de centralizar um conteúdo na página */
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 50px;
+            margin-left: 20px;
+
+            /* Simplificação da propriedade outline: */
+
+            outline: 5px dashed black;
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: black; /* A propriedade Outline fica entre a margem e a borda! */
+
+        }
+
+        a{ /*Inline-level*/
+            border-width: 10px;
+            border-style: solid;
+            border-color: lightblue;
+            padding: 5px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt error sint, voluptas nobis recusandae fuga blanditiis natus sunt quos itaque iusto in facere <a href="#">dignissimos</a> consequatur ipsum officiis voluptatum est illum.</p>
+</body>
+</html>

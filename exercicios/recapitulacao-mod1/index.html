@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body style="background-color: rgb(32, 32, 32); color: white;">
+    <h1>Esse é o meu primeiro código em HTML 5</h1>
+    <p>Estou aprendendo HTML 5  e CSS 3</p> 
+    <p>A tag &lt;p&gt; é para parágrafo</p>  
+    <hr>
+    
+    <h1>Parágrafos e quebras de linhas</h1>
+    <p>Para escrever um parágrafo, basta colocar tudo ente a tag &lt;p&gt;</p>
+
+    <p>Para quebrar linhas, basta usar a tag &lt;br&gt;</p>
+
+    <h2>Inserção de Emojins</h2>
+    <p>
+        &#x1F604;
+        &#x1F913;
+        &#x1F5A5;
+        &#x1F579;
+        &rightarrow;
+    </p>
+    <hr>
+
+    <h1>Inserindo Imagens em meu site</h1>
+
+    <img src="img/ciclismo-P.jpg" alt="Bicicleta">
+    <img src="img/carro-antigo.jpg" alt="Carro do século passado">
+    <img src="img/carro-G-red.jpg" alt="Imagem do carro reduzida">
+    <!--Imagem externa-->
+    <img src="https://p0.piqsels.com/preview/356/309/93/finland-helsinki-helsinki-central-railway-station-winter-thumbnail.jpg" alt="Imagem externa">
+    <hr>
+
+    <h1>Hierarquia de títulos</h1>
+
+    <h1>Falta de sintonia</h1>
+    <p class="destaque">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nostrum similique consequuntur dolorem a deserunt earum deleniti. Sapiente, voluptatibus, exercitationem tenetur voluptate nisi consequatur ipsa ut consectetur magnam minus enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sint sequi esse quas quia obcaecati quisquam eligendi, aspernatur accusamus porro quaerat quis tempore facere nemo repudiandae vitae dolore velit labore?</p>
+    <h2>Pense antes de agir</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque amet rerum maiores sapiente dignissimos laboriosam modi eligendi tempora quae tempore porro neque nisi placeat necessitatibus, molestiae sed nulla cumque voluptatem.</p>
+    <h2>Passem mais um tempo com seu desafeto</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis quia adipisci vitae, sunt dignissimos unde suscipit quas fugit ut voluptatibus sit exercitationem, quasi ipsa pariatur itaque dicta iste temporibus tempora.</p>
+    <h2>Saiba quem ta lidando</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum distinctio dicta eos ad, amet omnis vel adipisci, vitae nisi aut qui eveniet reprehenderit! Ipsa consequuntur corporis perferendis ex, maxime quibusdam.</p>
+    <h2>Tenha Objetividade</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, itaque facilis. Totam cumque unde iure laudantium voluptatibus eaque magni, cum facilis tempore? Pariatur repellendus debitis minus! Numquam nam maxime facere.</p>
+    <hr>
+
+    <h1>Tags substituidas da HTML 4 para a HTML 5</h1>
+    <address>Rua Tal</address> <!--Tag para endereços-->
+
+    <strong>Negrito</strong> <br> <!--Tag para negrito-->
+
+    <em>Itálico</em> <br><!--Tag para -->
+
+    <mark>HTML 5</mark> <br> <!--Marca o texto-->
+
+    <small>Texto pequeno</small> <br> <!--Texto pequeno-->
+
+    <del>Texto deletado</del> <br> <!--Deleta o texo-->
+
+    <ins>Texto inserido</ins> <br> <!--Texto inserido-->
+
+    <p>X<sub>2</sub></p> <br> <!--Texto subescrito-->
+
+    <p>X <sup>2</sup></p> <br> <!--Texto sobrescrito-->
+    <hr>
+
+    <h1>Listas</h1>
+
+    <ol type="I">
+        <li>Lista 1</li>
+        <li>Lista 2</li>
+        <li>Lista 3</li>
+    </ol>
+
+    <ul type="square">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <hr>
+
+    <h1>Imagens Dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 600px)" srcset="img/ciclismo-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="img/ciclismo-m.jpg" type="image/jpg">
+        <img src="img/ciclismo-g.jpg" alt="">
+    </picture>
+
+    <h2>Outro carro</h2>
+    <picture>
+        <source media="(max-width: 600px)" srcset="img/carro-antigo-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="img/carro-antigo-m.jpg" type="image/jpg">
+        <img src="img/carro-antigo-g.jpg" alt="Carro grande">
+    </picture>
+    <hr>
+
+    <h1>Audios</h1>
+    <audio preload="metadata" controls>
+        <source src="midia/Away - Patrick Patrikios.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1>Vídeos</h1>
+    <video width="600px" height="315px" controls>
+        <source src="midia/meu-video.m4v" type="video/mp4">
+    </video>
+
+    <iframe width="600px" height="315" src="https://www.youtube.com/embed/5h1RN5mXi6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="600px" height="315" src="https://www.youtube.com/embed/AJQ2SontBxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="600px" height="315" src="https://www.youtube.com/embed/ZWPJwNiDVjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
